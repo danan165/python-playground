@@ -3,5 +3,6 @@ python:
   - "3.5"
 before_install:
   - pip install flask
+  - pip install unittest
 script:
   - python test_server.py
